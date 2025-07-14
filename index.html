@@ -156,13 +156,19 @@ problems efficiently in fast-paced environments</p>
         </div>
       </div>
       <div class="contact-right">
-        <form>
-          <input type="text" placeholder="Enter Your Name" required />
-          <input type="email" placeholder="Enter Your Email" required />
-          <input type="text" placeholder="Enter Your Subject" />
-          <textarea rows="6" placeholder="Enter Your Message" required></textarea>
-          <button type="submit" class="submit-btn">Submit</button>
-        </form>
+      <form action="https://formsubmit.co/unstoppablemailer@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Enter Your Name" required />
+  <input type="email" name="email" placeholder="Enter Your Email" required />
+  <input type="text" name="subject" placeholder="Enter Your Subject" />
+  <textarea name="message" rows="6" placeholder="Enter Your Message" required></textarea>
+
+  <!-- Optional: Customize form behavior -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New Portfolio Contact Form Message">
+  <input type="hidden" name="_template" value="box">
+
+  <button type="submit" class="submit-btn">Submit</button>
+</form>
       </div>
     </div>
   </section>
