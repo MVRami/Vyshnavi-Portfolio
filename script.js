@@ -29,4 +29,3 @@ readMoreBtn.addEventListener('click', () => {
   extraText.classList.toggle('show');
   readMoreBtn.textContent = extraText.classList.contains('show') ? 'Read Less' : 'Read More';
 });
-
