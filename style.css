@@ -634,3 +634,21 @@ body {
   background: #00abf0;
   box-shadow: 0 0 15px #0ef, 0 0 30px #0ef;
 }
+@media screen and (max-width: 768px) {
+  .home-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .home-content p {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+
+  .home-section {
+    padding: 2rem 1rem;
+  }
+}
