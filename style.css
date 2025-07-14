@@ -135,9 +135,9 @@ body {
   align-items: center;
   transform: translateX(-100px); /* Move image 80px left */
 }
-
-
-
+.home-section {
+  padding-top: 6rem; /* space for fixed header */
+}
 
 .glow-wrapper {
   position: relative;
