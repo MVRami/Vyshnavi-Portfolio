@@ -682,3 +682,13 @@ body {
     max-width: 250px;
   }
 }
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 2rem;
+  z-index: 999;
+  transition: top 0.3s ease-in-out;
+}
